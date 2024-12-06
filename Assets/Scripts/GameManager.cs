@@ -14,6 +14,8 @@ public class GameManager : MonoBehaviour {
 
     void Start() {
         // 생존 시간과 게임 오버 상태를 초기화
+        Time.timeScale = 1;
+
         surviveTime = 0;
         isGameover = false;
     }
@@ -59,5 +61,7 @@ public class GameManager : MonoBehaviour {
 
         // 최고 기록을 recordText 텍스트 컴포넌트를 통해 표시
         recordText.text = "Best Time: " + (int) bestTime;
+
+        Time.timeScale = 0;
     }
 }
