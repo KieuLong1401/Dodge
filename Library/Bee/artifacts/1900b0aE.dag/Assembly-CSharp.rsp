@@ -121,6 +121,9 @@
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"Assets/Sketchfab For Unity/Dependencies/Libraries/GLTFSerialization.dll"
+-r:"Assets/Sketchfab For Unity/Dependencies/Libraries/Ionic.Zip.Unity.dll"
+-r:"Assets/Sketchfab For Unity/Dependencies/Libraries/SketchfabPlugin.dll"
 -r:"C:/Users/kieul/OneDrive/Máy tính/Dodge/Library/PackageCache/com.unity.analytics@3.6.12/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll"
 -r:"C:/Users/kieul/OneDrive/Máy tính/Dodge/Library/PackageCache/com.unity.analytics@3.6.12/Unity.Analytics.Editor.dll"
 -r:"C:/Users/kieul/OneDrive/Máy tính/Dodge/Library/PackageCache/com.unity.analytics@3.6.12/Unity.Analytics.Tracker.dll"
@@ -358,12 +361,25 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.SecurityStub.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.Stores.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/Scripts/Batatamina.cs"
 "Assets/Scripts/Bullet.cs"
-"Assets/Scripts/BulletSpawner.cs"
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/HealthBar.cs"
+"Assets/Scripts/Hipnogumelo.cs"
+"Assets/Scripts/Peashooter.cs"
 "Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/Rotator.cs"
+"Assets/Sketchfab For Unity/Scripts/AssetBrowser/SketchfabBrowserManager.cs"
+"Assets/Sketchfab For Unity/Scripts/AssetBrowser/SketchfabBrowserWindow.cs"
+"Assets/Sketchfab For Unity/Scripts/AssetBrowser/SketchfabModelWindow.cs"
+"Assets/Sketchfab For Unity/Scripts/Resizer.cs"
+"Assets/Sketchfab For Unity/Scripts/SketchfabApi.cs"
+"Assets/Sketchfab For Unity/Scripts/SketchfabExporter.cs"
+"Assets/Sketchfab For Unity/Scripts/SketchfabImporter.cs"
+"Assets/Sketchfab For Unity/Scripts/SketchfabImporterWindow.cs"
+"Assets/Sketchfab For Unity/Scripts/SketchfabLogger.cs"
+"Assets/Sketchfab For Unity/Scripts/SketchfabPlugin.cs"
+"Assets/Sketchfab For Unity/Scripts/SketchfabUI.cs"
 -langversion:9.0
 
 /deterministic

@@ -11,9 +11,6 @@ public class Bullet : MonoBehaviour {
         bulletRigidbody = GetComponent<Rigidbody>();
         // 리지드바디의 속도 = 앞쪽 방향 * 이동 속력
         bulletRigidbody.velocity = transform.forward * speed;
-
-        // 3초 뒤에 자신의 게임 오브젝트 파괴
-        Destroy(gameObject, 3f);
     }
 
     // 트리거 충돌시 자동으로 실행되는 메서드
@@ -31,7 +28,13 @@ public class Bullet : MonoBehaviour {
             {
                 // 상대방 PlayerController 컴포넌트의 Die() 메서드 실행
                 healthBar.TakeDamage(1);
+
             }
+        }
+
+        if(other.tag == "Player" || other.tag == "Wall" || other.tag == "Ground")
+        {
+            Destroy(gameObject);
         }
     }
 }

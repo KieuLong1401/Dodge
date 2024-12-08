@@ -126,6 +126,9 @@
 -define:PACKAGE_UITOOLKIT
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"Assets/Sketchfab For Unity/Dependencies/Libraries/GLTFSerialization.dll"
+-r:"Assets/Sketchfab For Unity/Dependencies/Libraries/Ionic.Zip.Unity.dll"
+-r:"Assets/Sketchfab For Unity/Dependencies/Libraries/SketchfabPlugin.dll"
 -r:"C:/Users/kieul/OneDrive/Máy tính/Dodge/Library/PackageCache/com.unity.analytics@3.6.12/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll"
 -r:"C:/Users/kieul/OneDrive/Máy tính/Dodge/Library/PackageCache/com.unity.analytics@3.6.12/Unity.Analytics.Editor.dll"
 -r:"C:/Users/kieul/OneDrive/Máy tính/Dodge/Library/PackageCache/com.unity.analytics@3.6.12/Unity.Analytics.Tracker.dll"
