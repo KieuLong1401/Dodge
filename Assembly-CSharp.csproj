@@ -43,7 +43,7 @@
      <Compile Include="Assets\Sketchfab For Unity\Scripts\SketchfabExporter.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\Peashooter.cs" />
-     <Compile Include="Assets\Scripts\Hipnogumelo.cs" />
+     <Compile Include="Assets\Scripts\HipnoshroomSpawner.cs" />
      <Compile Include="Assets\Sketchfab For Unity\Scripts\AssetBrowser\SketchfabModelWindow.cs" />
      <Compile Include="Assets\Sketchfab For Unity\Scripts\SketchfabLogger.cs" />
      <Compile Include="Assets\Scripts\Bullet.cs" />
@@ -53,8 +53,9 @@
      <Compile Include="Assets\Sketchfab For Unity\Scripts\SketchfabApi.cs" />
      <Compile Include="Assets\Sketchfab For Unity\Scripts\SketchfabImporter.cs" />
      <Compile Include="Assets\Sketchfab For Unity\Scripts\AssetBrowser\SketchfabBrowserWindow.cs" />
+     <Compile Include="Assets\Scripts\PotatoMine.cs" />
      <Compile Include="Assets\Sketchfab For Unity\Scripts\AssetBrowser\SketchfabBrowserManager.cs" />
-     <Compile Include="Assets\Scripts\Batatamina.cs" />
+     <Compile Include="Assets\Scripts\PotatoMineSpawner.cs" />
      <None Include="Assets\Sketchfab For Unity\Dependencies\Shaders\GLTFFlipTexture.shader" />
      <None Include="Assets\Sketchfab For Unity\Dependencies\Shaders\GLTFColorSpace.cginc" />
      <None Include="Assets\Sketchfab For Unity\Dependencies\Shaders\GLTFPackOccMetalRough.shader" />
