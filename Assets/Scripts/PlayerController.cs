@@ -4,15 +4,16 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour {
     private Rigidbody playerRigidbody; // 이동에 사용할 리지드바디 컴포넌트
-    public float speed = 8f; // 이동 속력
-    public float jumpForce = 10.0f;
+    public float speed; // 이동 속력
+    public float jumpForce;
     private bool isGrounded = true;
-    public float GravityScale = 1f;
+    public float GravityScale;
 
 
     public LayerMask groundLayer;
-    public float groundCheckRadius = 0.2f;
+    public float groundCheckRadius;
     public Transform groundCheck;
+    public float reverseTime;
 
     private bool isReversed = false;
     void Start() {
@@ -74,7 +75,7 @@ public class PlayerController : MonoBehaviour {
 
     IEnumerator ReverseMovementRoutine() {
         isReversed = true;
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(reverseTime);
         isReversed = false;
     }
 }

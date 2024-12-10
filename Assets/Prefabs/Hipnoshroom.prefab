@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 874529455371531477}
   - component: {fileID: 1483821046367253460}
   - component: {fileID: 7738595578046703339}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Object_11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,7 +92,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 329503003156120724}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SymmVert_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -128,7 +128,7 @@ GameObject:
   - component: {fileID: 6381617232332733684}
   - component: {fileID: 2080590165021104119}
   - component: {fileID: 3442173076520378335}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Object_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -212,7 +212,7 @@ GameObject:
   - component: {fileID: 5185591700591205688}
   - component: {fileID: 6689548515724308329}
   - component: {fileID: 6564605241038284265}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -306,7 +306,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5726917687860618991}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Sketchfab_model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -340,7 +340,7 @@ GameObject:
   - component: {fileID: 7794914232244678639}
   - component: {fileID: 376915133735071590}
   - component: {fileID: 1039086707683718476}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Object_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -423,7 +423,7 @@ GameObject:
   - component: {fileID: 7815358755491953273}
   - component: {fileID: 8473515211495270799}
   - component: {fileID: 5715329435437517013}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Object_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -504,7 +504,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5972140273894303403}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -537,7 +537,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9138177214247403864}
   - component: {fileID: 7908282179708261186}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Hipnoshroom
   m_TagString: Hipnogumelo
   m_Icon: {fileID: 0}
@@ -584,7 +584,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3292867010197430269}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -619,7 +619,7 @@ GameObject:
   - component: {fileID: 9098263521629270761}
   - component: {fileID: 529804042450829197}
   - component: {fileID: 7997891650505005179}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Object_9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -700,7 +700,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5069583065490581929}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: root
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -732,7 +732,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2002598534086949587}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GLTF_SceneRootNode
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -768,7 +768,7 @@ GameObject:
   - component: {fileID: 1721104427705812340}
   - component: {fileID: 4051014110635941737}
   - component: {fileID: 7882247021286523961}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Object_7
   m_TagString: Untagged
   m_Icon: {fileID: 0}

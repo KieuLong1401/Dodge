@@ -5,11 +5,11 @@ using TMPro;
 
 public class PotatoMine : MonoBehaviour
 {
-    public float activationTime = 5f;
-    public float proximityTimeToEat = 1f;
-    public float explosionDamage = 5f;
-    public float inactiveY = -0.5f;
-    public float activeY = 0f;
+    public float activationTime;
+    public float proximityTimeToEat;
+    public float explosionDamage;
+    public float inactiveY;
+    public float activeY;
 
     private bool isActive = false;
     private bool isPlayerNearby = false;
@@ -17,7 +17,7 @@ public class PotatoMine : MonoBehaviour
 
     private float remainingTime;
 
-    public float eatingRadius = 1.5f;
+    public float eatingRadius;
     public GameObject eatingArea;
     public GameObject eatingAreaTimer;
 
@@ -36,7 +36,6 @@ public class PotatoMine : MonoBehaviour
     {
         if (!isActive)
         {
-            remainingTime -= Time.deltaTime;
             
             if (isPlayerNearby)
             {
@@ -49,6 +48,7 @@ public class PotatoMine : MonoBehaviour
             }
             else
             {
+                remainingTime -= Time.deltaTime;
                 proximityTimer = 0f;
             }
         }
@@ -117,11 +117,12 @@ public class PotatoMine : MonoBehaviour
         Vector3 currentPosition = transform.position;
         currentPosition.y = yPosition;
         transform.position = currentPosition;
+        Debug.Log("asdf");
     }
 
-    // void OnDrawGizmos()
-    // {
-    //     Gizmos.color = Color.green;
-    //     Gizmos.DrawSphere(transform.position, eatingRadius);
-    // }   
+    void OnDrawGizmos()
+    {
+        Gizmos.color = Color.green;
+        Gizmos.DrawSphere(transform.position, eatingRadius);
+    }   
 }

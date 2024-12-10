@@ -38,6 +38,9 @@ public class GameManager : MonoBehaviour {
                 SceneManager.LoadScene("SampleScene");
             }
         }
+
+
+        
     }
 
     // 현재 게임을 게임 오버 상태로 변경하는 메서드

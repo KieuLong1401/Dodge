@@ -6,8 +6,8 @@ using UnityEngine.UI;
 public class HealthBar : MonoBehaviour
 {
     public Slider healthSlider;
-    public float maxHealth = 10f;
-    public float health;
+    public float maxHealth;
+    private float health;
 
     void Start()
     {
