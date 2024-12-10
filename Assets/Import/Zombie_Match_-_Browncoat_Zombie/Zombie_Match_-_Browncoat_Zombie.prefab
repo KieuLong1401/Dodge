@@ -1,5 +1,36 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1800600144
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1800600145}
+  m_Layer: 3
+  m_Name: groundCheck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1800600145
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1800600144}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3997996413711711365}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &159924191018031758
 GameObject:
   m_ObjectHideFlags: 0
@@ -9,7 +40,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4755926499734581136}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: browncoat zombie.fbx
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41,7 +72,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6250436242506419583}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: r_finger_end_019
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -74,7 +105,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1584968426682990295}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: r_finger_end_end_037
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -105,7 +136,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1056433345539380153}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: head_end_end_035
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -136,7 +167,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4452002472783604474}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tie_022
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -168,7 +199,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5183054447276512954}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: l_hand_07
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -201,7 +232,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9136423111728930844}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: r_hand_00
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -234,7 +265,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8549030504353355883}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: head_end_014
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -266,7 +297,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6979070962985524129}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: l_shoulder_05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -298,7 +329,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1928382640080180}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: _rootJoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -330,7 +361,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4623718523305545218}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tie_end_end_039
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -361,7 +392,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6291440081324864871}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: back_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -396,7 +427,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4962331118505448757}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: l_elbow_06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -428,7 +459,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6810429622704007350}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Object_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -462,7 +493,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7016067799310657}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Zombie_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -476,7 +507,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2327619050515347980}
-  m_LocalRotation: {x: 3.0781305e-24, y: -0.35072112, z: -8.219087e-24, w: -0.9364799}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 0, y: -0.14103515, z: -0.00000011117869}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -484,7 +515,7 @@ Transform:
   - {fileID: 2201552059916447382}
   m_Father: {fileID: 1928382640080180}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1 &2336432991851466224
 GameObject:
   m_ObjectHideFlags: 0
@@ -494,7 +525,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6948943483417152842}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: r_thigh_029
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -526,7 +557,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1425426956266953725}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ObjectiveIndicatorZombieCharge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -558,7 +589,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6411973968654794765}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: root_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -591,7 +622,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4139634766004322577}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: r_thumb_end_021
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -624,7 +655,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 673238491120449630}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Object_48
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -655,7 +686,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2280689082616986881}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: l_thigh_025
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -687,7 +718,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1058889896778055745}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: r_knee_030
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -719,7 +750,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7305070351913206313}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: l_thumb_010
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -751,7 +782,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7937234253713149464}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: hip_024
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -784,7 +815,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3954900110847126646}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: r_thumb_end_end_038
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -815,9 +846,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3997996413711711365}
-  m_Layer: 0
+  - component: {fileID: 258410807}
+  - component: {fileID: 258410808}
+  - component: {fileID: 258410809}
+  m_Layer: 3
   m_Name: Zombie_Match_-_Browncoat_Zombie
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -831,13 +865,64 @@ Transform:
   m_GameObject: {fileID: 4686993024538727605}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 7, y: 7, z: 7}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 9010964537590701553}
+  - {fileID: 1800600145}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &258410807
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4686993024538727605}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 80
+  m_CollisionDetection: 0
+--- !u!136 &258410808
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4686993024538727605}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.07
+  m_Height: 0.3
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.15, z: 0}
+--- !u!114 &258410809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4686993024538727605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca54981b5598a49128ba5f0b51613eae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 8
+  jumpForce: 10
+  GravityScale: 1
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 512
+  groundCheckRadius: 0.2
+  groundCheck: {fileID: 1800600145}
 --- !u!1 &4703033762982126634
 GameObject:
   m_ObjectHideFlags: 0
@@ -847,7 +932,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5342110426224064838}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: l_thumb_end_011
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -880,7 +965,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6852890858180650206}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jaw_end_036
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -911,7 +996,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9010964537590701553}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sketchfab_model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -943,7 +1028,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3090183377703809436}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: head_013
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -976,7 +1061,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3559085800951291965}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: l_finger_08
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1008,7 +1093,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8893554144793253412}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: r_foot_032
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1040,7 +1125,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6234512015581111605}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tie_end_023
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1072,7 +1157,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4078042949022839249}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: neck_012
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1105,7 +1190,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8214203366585415375}
   - component: {fileID: 7990469776596269044}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Object_49
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1232,7 +1317,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4187292702783732243}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: l_ankle_027
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1264,7 +1349,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3785386687555365708}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: RootNode
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1296,7 +1381,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 33528419939629176}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: l_foot_end_040
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1327,7 +1412,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 655331809817615205}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: r_ankle_031
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1359,7 +1444,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2201552059916447382}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ultra_root_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1391,7 +1476,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2884128913889384116}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: l_finger_end_end_033
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1422,7 +1507,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2287450518900411174}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: l_foot_028
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1454,7 +1539,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3389989450976678175}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: l_thumb_end_end_034
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1485,7 +1570,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5135309607001710460}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: l_finger_end_09
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1518,7 +1603,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4971139027940214502}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: jaw_015
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1550,7 +1635,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7676687013669608561}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: r_shoulder_016
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1582,7 +1667,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 701755746817638343}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: r_foot_end_041
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1613,7 +1698,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7456200926970446310}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: l_knee_026
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1645,7 +1730,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 972203801754333895}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: r_finger_018
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1677,7 +1762,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3525657317166573290}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: r_thumb_020
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1709,7 +1794,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3921196148930487223}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: r_elbow_017
   m_TagString: Untagged
   m_Icon: {fileID: 0}

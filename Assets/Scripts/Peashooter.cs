@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Peashooter : MonoBehaviour {
     public GameObject bulletPrefab; // 생성할 총알의 원본 프리팹
-    public float spawnRateMin = 0.5f; // 최소 생성 주기
-    public float spawnRateMax = 3f; // 최대 생성 주기
+    public float spawnRateMin = 2f; // 최소 생성 주기
+    public float spawnRateMax = 4f; // 최대 생성 주기
 
     private Transform target; // 발사할 대상
     private float spawnRate; // 생성 주기
