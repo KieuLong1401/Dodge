@@ -361,6 +361,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.SecurityStub.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.Purchasing.Stores.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/Scripts/Brain.cs"
 "Assets/Scripts/Bullet.cs"
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/HealthBar.cs"

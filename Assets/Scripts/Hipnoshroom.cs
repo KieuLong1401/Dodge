@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Hipnoshroom : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public float reverseTime;    
+
     void Start()
     {
         
@@ -14,5 +15,16 @@ public class Hipnoshroom : MonoBehaviour
     void Update()
     {
         
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        if(other.CompareTag("Player"))
+        {
+            PlayerController player = FindObjectOfType<PlayerController>();
+            player.ReverseMovement(reverseTime);
+
+            Destroy(gameObject);
+        }
     }
 }

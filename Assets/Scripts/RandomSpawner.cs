@@ -5,13 +5,16 @@ using UnityEngine;
 public class RandomSpawner : MonoBehaviour
 {
     public GameObject objectPrefab;
+
     public float spawnInterval;
     public float spawnRadius;
     public GameObject spawnArea;
-    public LayerMask enemyLayer;
+    public LayerMask obstacleLayer;
+    private Vector3 spawnAreaSize;
+
     public float lifetime = 0;
 
-    private Vector3 spawnAreaSize;
+    public float yPos;
 
     void Start()
     {
@@ -42,13 +45,13 @@ public class RandomSpawner : MonoBehaviour
         do {
             spawnPosition = new Vector3(
                 Random.Range(-spawnAreaSize.x / 2 + spawnRadius, spawnAreaSize.x / 2 - spawnRadius),
-                0f,
+                yPos,
                 Random.Range(-spawnAreaSize.z / 2 + spawnRadius, spawnAreaSize.z / 2 - spawnRadius)
             );
             spawnPosition = spawnArea.transform.TransformPoint(spawnPosition);
             attempts++;
         }
-        while (Physics.OverlapSphere(transform.position, spawnRadius, enemyLayer).Length > 0 && attempts < 100);
+        while (Physics.OverlapSphere(transform.position, spawnRadius, obstacleLayer).Length > 0 && attempts < 100);
 
         if (attempts < 100) {
             GameObject gameObject = Instantiate(objectPrefab, spawnPosition, Quaternion.identity);

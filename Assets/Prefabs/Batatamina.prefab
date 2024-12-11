@@ -773,7 +773,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activationTime: 7
   proximityTimeToEat: 1
-  explosionDamage: 3
+  explosionDamage: 5
   inactiveY: -0.5
   activeY: 0
   eatingRadius: 2

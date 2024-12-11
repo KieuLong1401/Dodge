@@ -4,18 +4,18 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour {
     private Rigidbody playerRigidbody; // 이동에 사용할 리지드바디 컴포넌트
+
     public float speed; // 이동 속력
+
     public float jumpForce;
-    private bool isGrounded = true;
     public float GravityScale;
-
-
     public LayerMask groundLayer;
     public float groundCheckRadius;
     public Transform groundCheck;
-    public float reverseTime;
+    private bool isGrounded = true;
 
     private bool isReversed = false;
+
     void Start() {
         // 게임 오브젝트에서 Rigidbody 컴포넌트를 찾아 playerRigidbody에 할당
         playerRigidbody = GetComponent<Rigidbody>();
@@ -65,15 +65,12 @@ public class PlayerController : MonoBehaviour {
         gameManager.EndGame();
     }
 
-    void OnTriggerEnter(Collider other) {
-        if (other.CompareTag("Hipnogumelo")) {
-
-            StartCoroutine(ReverseMovementRoutine());
-            Destroy(other.gameObject);
-        }
+    public void ReverseMovement(float reverseTime)
+    {
+        StartCoroutine(ReverseMovementRoutine(reverseTime));
     }
 
-    IEnumerator ReverseMovementRoutine() {
+    IEnumerator ReverseMovementRoutine(float reverseTime) {
         isReversed = true;
         yield return new WaitForSeconds(reverseTime);
         isReversed = false;

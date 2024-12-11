@@ -22,6 +22,12 @@ public class HealthBar : MonoBehaviour
         {
             healthSlider.value = health;
         }
+    }
+
+    public void TakeDamage(float damage)
+    {
+        health -= damage;
+
         if(health <= 0)
         {
             PlayerController playerController = FindObjectOfType<PlayerController>();
@@ -32,8 +38,13 @@ public class HealthBar : MonoBehaviour
         }
     }
 
-    public void TakeDamage(float damage)
+    public void Recover(float HP)
     {
-        health -= damage;
+        health += HP;
+        
+        if(health > maxHealth)
+        {
+            health = maxHealth;
+        }
     }
 }

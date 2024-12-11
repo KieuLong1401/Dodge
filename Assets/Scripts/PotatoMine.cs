@@ -117,7 +117,6 @@ public class PotatoMine : MonoBehaviour
         Vector3 currentPosition = transform.position;
         currentPosition.y = yPosition;
         transform.position = currentPosition;
-        Debug.Log("asdf");
     }
 
     void OnDrawGizmos()
