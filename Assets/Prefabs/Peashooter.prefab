@@ -1085,8 +1085,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 1789528809916358, guid: 670122bf04a0640288a46f1a027d6f8b,
     type: 3}
-  spawnRateMin: 3
-  spawnRateMax: 5
+  spawnRateMin: 2
+  spawnRateMax: 4
 --- !u!1 &3757640682856519954
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Hello Neighbor 2 Alpha 2 Lawnmower
+* source:	https://sketchfab.com/3d-models/hello-neighbor-2-alpha-2-lawnmower-d62e8dd938e54e448e7e0a66a1be9fea
+* author:	mathewgod60 (https://sketchfab.com/sankobananko065)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Hello Neighbor 2 Alpha 2 Lawnmower" (https://sketchfab.com/3d-models/hello-neighbor-2-alpha-2-lawnmower-d62e8dd938e54e448e7e0a66a1be9fea) by mathewgod60 (https://sketchfab.com/sankobananko065) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

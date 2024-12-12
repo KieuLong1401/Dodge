@@ -9,6 +9,7 @@ TagManager:
   - Enemy
   - Bullet
   - Hipnogumelo
+  - InvisibleWall
   layers:
   - Default
   - TransparentFX
