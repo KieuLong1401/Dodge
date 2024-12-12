@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -176,12 +176,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 28394952}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aae34a694d111456eba586805e773f6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: -10
+  rotationSpeed: 70
 --- !u!65 &28394955
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -193,8 +193,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 19, y: 3, z: 19}
-  m_Center: {x: 0, y: 1.5, z: 0}
+  m_Size: {x: 19, y: 5, z: 19}
+  m_Center: {x: 0, y: -0.01, z: 0}
 --- !u!1 &64163838
 GameObject:
   m_ObjectHideFlags: 0
@@ -671,6 +671,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Peashooter (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3635143958194823724, guid: 3b19a5456b419704685430f914fd052d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4877145780336482940, guid: 3b19a5456b419704685430f914fd052d,
         type: 3}
       propertyPath: m_RootOrder
@@ -835,6 +840,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Peashooter (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635143958194823724, guid: 3b19a5456b419704685430f914fd052d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4877145780336482940, guid: 3b19a5456b419704685430f914fd052d,
         type: 3}
@@ -1254,7 +1264,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &869586956
 Transform:
   m_ObjectHideFlags: 0
@@ -1289,7 +1299,7 @@ MonoBehaviour:
   spawnArea: {fileID: 28394952}
   obstacleLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 64
   lifetime: 3
   yPos: 1
 --- !u!1 &899290877
@@ -1417,7 +1427,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1010651285
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1432,13 +1442,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectPrefab: {fileID: 1168874309215803485, guid: 5072b0d4250248648a36a9f2deef8860,
     type: 3}
-  spawnInterval: 20
+  spawnInterval: 15
   spawnRadius: 0.7
   spawnArea: {fileID: 28394952}
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 0
-  lifetime: 5
+  lifetime: 4
   yPos: 0
 --- !u!4 &1010651286
 Transform:
@@ -2148,7 +2158,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1459177191
 Transform:
   m_ObjectHideFlags: 0
@@ -2178,12 +2188,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectPrefab: {fileID: 5947659138635858005, guid: 01788059fd10d5043a68eb71502ab73f,
     type: 3}
-  spawnInterval: 6
+  spawnInterval: 5
   spawnRadius: 2
   spawnArea: {fileID: 28394952}
   obstacleLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 64
   lifetime: 0
   yPos: -0.5
 --- !u!1 &1708930231
@@ -2508,7 +2518,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lawnMowerPrefab: {fileID: 8762440833357903521, guid: 7b533c98b34351c46ac17a01bdf9f4f7,
     type: 3}
-  spawnDistance: 1.5
+  spawnDistance: 2
   spawnInterval: 2
   spawnArea: {fileID: 28394952}
 --- !u!4 &1885695784
@@ -2537,6 +2547,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Peashooter (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635143958194823724, guid: 3b19a5456b419704685430f914fd052d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4877145780336482940, guid: 3b19a5456b419704685430f914fd052d,
         type: 3}
@@ -2612,6 +2627,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Peashooter
+      objectReference: {fileID: 0}
+    - target: {fileID: 3635143958194823724, guid: 3b19a5456b419704685430f914fd052d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4877145780336482940, guid: 3b19a5456b419704685430f914fd052d,
         type: 3}

@@ -6,10 +6,29 @@ public class Lawnmower : MonoBehaviour
 {
     public float speed;
     public float damage;
-    private Rigidbody rigidBody;
+    public float delayTime;
+
+    private Vector3 moveDirection;
+    private GameObject spawnArea;
+    private bool canMove = false;
     void Start()
     {
-        rigidBody = GetComponent<Rigidbody>();
+        StartCoroutine(DelayBeforeMove());
+    }
+
+    void Update()
+    {
+        if(spawnArea != null && moveDirection != null)
+        {
+            Vector3 worldDirection = spawnArea.transform.TransformDirection(moveDirection);
+
+            transform.rotation = Quaternion.LookRotation(-worldDirection, Vector3.up);
+
+            if(canMove)
+            {
+                transform.position += worldDirection.normalized * speed * Time.deltaTime;
+            }
+        }
     }
 
     void OnTriggerEnter(Collider other)
@@ -21,16 +40,25 @@ public class Lawnmower : MonoBehaviour
 
         }
 
-        // if(other.CompareTag("Wall"))
-        // {
-        //     Destroy(gameObject);
-        // }
+        if(other.CompareTag("Wall"))
+        {
+            Destroy(gameObject);
+        }
+    }
+
+    IEnumerator DelayBeforeMove()
+    {
+        yield return new WaitForSeconds(delayTime);
+
+        canMove = true;
     }
 
     public void ChangeMoveDirection(Vector3 direction)
     {
-        transform.rotation = Quaternion.LookRotation(-direction, Vector3.up);
-
-        rigidBody.AddForce(direction * speed, ForceMode.Impulse);
+        moveDirection = direction;
+    }
+    public void ChangeSpawnArea(GameObject spawnArea)
+    {
+        this.spawnArea = spawnArea;
     }
 }
