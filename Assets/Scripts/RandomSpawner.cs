@@ -6,7 +6,8 @@ public class RandomSpawner : MonoBehaviour
 {
     public GameObject objectPrefab;
 
-    public float spawnInterval;
+    public float spawnRateMin;
+    public float spawnRateMax;
     public float spawnRadius;
     public GameObject spawnArea;
     public LayerMask obstacleLayer;
@@ -26,7 +27,9 @@ public class RandomSpawner : MonoBehaviour
     {
         while (true)
         {
-            yield return new WaitForSeconds(spawnInterval);
+            float randomSpawnInterval = Random.Range(spawnRateMin, spawnRateMax);
+
+            yield return new WaitForSeconds(randomSpawnInterval);
             Spawn();
         }
     }

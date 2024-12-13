@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638689122748096220
-    m_Hash: 2922724160
+      ticks: 638696701907092206
+    m_Hash: 1980505686
   m_LockFileStatus:
     m_FilePath: "C:/Users/kieul/OneDrive/M\xE1y t\xEDnh/Dodge/Packages/packages-lock.json"
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638689122751576067
-    m_Hash: 3134590747
+      ticks: 638696701907167589
+    m_Hash: 1686278308
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -620,12 +620,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 3.0.16
     nextVersion: 
-- packageId: com.unity.ide.visualstudio@2.0.16
+- packageId: com.unity.ide.visualstudio@2.0.22
   testable: 0
   isDirectDependency: 1
-  version: 2.0.16
+  version: 2.0.22
   source: 1
-  resolvedPath: "C:\\Users\\kieul\\OneDrive\\M\xE1y t\xEDnh\\Dodge\\Library\\PackageCache\\com.unity.ide.visualstudio@2.0.16"
+  resolvedPath: "C:\\Users\\kieul\\OneDrive\\M\xE1y t\xEDnh\\Dodge\\Library\\PackageCache\\com.unity.ide.visualstudio@2.0.22"
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -634,7 +634,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: assets
   description: Code editor integration for supporting Visual Studio as code editor
     for unity. Adds support for generating csproj files for intellisense purposes,
     auto discovery of installations, etc.
@@ -697,13 +697,13 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637914298680000000
-  documentationUrl: 
+  datePublishedTicks: 638326061910000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.visualstudio@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.visualstudio.git
-    revision: c01855ef6461b821ab0226135e96a4ee86de96be
+    revision: 700b44077345e97d37d464ff25507638983aed64
     path: 
   unityLifecycle:
     version: 2.0.16

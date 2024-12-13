@@ -2,11 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class HealthBar : MonoBehaviour
 {
     public Slider healthSlider;
     public float maxHealth;
+    public TextMeshProUGUI healthText;
     private float health;
 
     void Start()
@@ -21,6 +23,7 @@ public class HealthBar : MonoBehaviour
         if(healthSlider.value != health)
         {
             healthSlider.value = health;
+            healthText.text = $"{health} / {maxHealth}";
         }
     }
 

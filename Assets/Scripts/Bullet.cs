@@ -32,7 +32,7 @@ public class Bullet : MonoBehaviour {
             }
         }
 
-        if(other.tag == "Player" || other.tag == "Wall" || other.tag == "Ground")
+        if(other.tag == "Player" || other.tag == "InvisibleWall" || other.tag == "Ground")
         {
             Destroy(gameObject);
         }

@@ -40,7 +40,7 @@ public class Lawnmower : MonoBehaviour
 
         }
 
-        if(other.CompareTag("Wall"))
+        if(other.CompareTag("InvisibleWall"))
         {
             Destroy(gameObject);
         }
